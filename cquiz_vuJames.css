@@ -4,7 +4,7 @@ h3  {
 body	{
 	background-color:lightblue
 }
-ol,li	{
+ol	{
 	list-style-type="upper-alpha"
 }
 input.math_Button {
