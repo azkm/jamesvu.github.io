@@ -5,7 +5,7 @@ body	{
 	background-color:lightblue
 }
 ol,li	{
-	type="A"
+	list-style-type="upper-alpha"
 }
 input.math_Button {
 width: 300px;
