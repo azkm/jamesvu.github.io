@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <script type="text/javascript" src="fruit.js"></script>
+</head>
+<body onLoad="main()">
+<h3> Fruit Quiz! </h3>
+<h5> Question <b id ="quesNum"></b></h5>
+<div id="question"></div>
+<ol type ="A">
+<li><div id="choiceA"></div></li>
+<li><div id="choiceB"></div></li>
+<li><div id="choiceC"></div></li>
+<li><div id="choiceD"></div></li>
+</ol>
+<form name="selection">
+<select name="answer">
+<option value="A" selected>A</option>
+<option value="B">B</option>
+<option value="C">C</option>
+<option value="D">D</option>
+</select>
+</form>
+<input type =button  id="submit" value="Submit!" onClick=answer()>
+<input type =button  id="nextQuestion" value="NextQuestion" onClick=main()>
+<p>Score: <b id ="displayScore"></b></p>
+</body>
+</html>
